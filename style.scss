@@ -1,4 +1,9 @@
 @import './scss/variables/variables';
+@import './scss/utils/include-media';
+@import './scss/components/nav';
+@import './scss/components/hero';
+@import './scss/components/gallery';
+@import './scss/components/details';
 
 @font-face {
 	font-family: 'SF UI Display';
@@ -108,7 +113,10 @@
 	box-sizing: border-box;
 }
 
+html {
+	font-size: 62.5%;
+}
+
 body {
-	font-family: 'New York';
-	font-size: 112px;
+	font-family: 'SF UI Display';
 }

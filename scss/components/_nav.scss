@@ -1,0 +1,63 @@
+@import '../variables/variables';
+
+.nav {
+	width: 100vw;
+	height: 10rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+	&__ul {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin: 0 6rem;
+	}
+
+	&__li {
+		list-style: none;
+	}
+
+	&__logo {
+		margin-right: 4rem;
+		cursor: pointer;
+	}
+
+	&__a {
+		text-decoration: none;
+		color: $clrGray;
+		font-size: 1.4rem;
+		margin: 0 1rem;
+		cursor: pointer;
+		padding: 1rem 1.5rem;
+		border-radius: 0.5rem;
+		transition: all 0.5s ease;
+
+		&:hover {
+			background-color: $clrGray;
+			color: white;
+		}
+	}
+
+	&__btn {
+		border: none;
+		background-color: white;
+		color: $clrGray;
+		font-size: 1.4rem;
+		padding: 1rem 1.5rem;
+		border-radius: 0.5rem;
+		cursor: pointer;
+		margin: 0 1rem;
+		transition: all 0.5s ease;
+
+		&:hover {
+			background-color: $clrGray;
+			color: white;
+		}
+
+		&-red {
+			background-color: $clrRed;
+			color: white;
+		}
+	}
+}

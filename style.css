@@ -1,3 +1,172 @@
+.nav {
+  width: 100vw;
+  height: 10rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.nav__ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 6rem;
+}
+.nav__li {
+  list-style: none;
+}
+.nav__logo {
+  margin-right: 4rem;
+  cursor: pointer;
+}
+.nav__a {
+  text-decoration: none;
+  color: #585858;
+  font-size: 1.4rem;
+  margin: 0 1rem;
+  cursor: pointer;
+  padding: 1rem 1.5rem;
+  border-radius: 0.5rem;
+  transition: all 0.5s ease;
+}
+.nav__a:hover {
+  background-color: #585858;
+  color: white;
+}
+.nav__btn {
+  border: none;
+  background-color: white;
+  color: #585858;
+  font-size: 1.4rem;
+  padding: 1rem 1.5rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  margin: 0 1rem;
+  transition: all 0.5s ease;
+}
+.nav__btn:hover {
+  background-color: #585858;
+  color: white;
+}
+.nav__btn-red {
+  background-color: #fd665e;
+  color: white;
+}
+
+.main {
+  margin: 4rem 0;
+}
+
+.hero {
+  margin: 0 17rem;
+}
+.hero__heading {
+  font-family: "New York";
+  font-size: 11.2rem;
+}
+.hero__heading-red {
+  color: #fd665e;
+}
+.hero__main {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: top;
+}
+.hero__main__left-description {
+  font-size: 1.6rem;
+  margin-bottom: 5rem;
+  color: #585858;
+}
+.hero__main__left-btn {
+  font-size: 1.6rem;
+  background-color: #fd665e;
+  border: none;
+  padding: 1.5rem 2rem;
+  color: white;
+  border-radius: 0.5rem;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+.hero__main__left-btn:hover {
+  background-color: #585858;
+}
+
+.gallery {
+  margin-top: 15rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.gallery__heading {
+  font-size: 4.8rem;
+  font-family: "New York";
+  margin-bottom: 5rem;
+}
+.gallery__img-single {
+  margin: 0 2rem;
+  transition: all 0.5s ease;
+}
+.gallery__img-single:hover {
+  transform: scale(1.02);
+}
+
+.details {
+  margin-top: 15rem;
+  margin-left: 17rem;
+  margin-right: 17rem;
+}
+.details__heading {
+  font-size: 4.8rem;
+  font-family: "New York";
+  margin-bottom: 5rem;
+}
+.details__main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.feature {
+  margin-right: 40rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.feature__btn {
+  color: white;
+  background-color: #fd665e;
+  padding: 1.5rem 2rem;
+  border-radius: 0.5rem;
+  border: none;
+  font-size: 1.6rem;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+.feature__btn:hover {
+  background-color: #585858;
+}
+.feature__section {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-bottom: 5rem;
+}
+.feature__section__img {
+  margin-right: 3rem;
+}
+.feature__section__details {
+  font-size: 1.8rem;
+}
+.feature__section__details-p {
+  font-size: 1.6rem;
+  color: #585858;
+  margin-top: 1.5rem;
+}
+
 @font-face {
   font-family: "SF UI Display";
   src: url("./fonts/SFUIDisplay-Bold.woff2") format("woff2");
@@ -96,9 +265,12 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 62.5%;
+}
+
 body {
-  font-family: "New York";
-  font-size: 112px;
+  font-family: "SF UI Display";
 }
 
 /*# sourceMappingURL=style.css.map */

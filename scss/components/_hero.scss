@@ -1,0 +1,46 @@
+.main {
+	margin: 4rem 0;
+}
+
+.hero {
+	margin: 0 17rem;
+	&__heading {
+		font-family: 'New York';
+		font-size: 11.2rem;
+
+		&-red {
+			color: $clrRed;
+		}
+	}
+
+	&__main {
+		margin-top: 5rem;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: top;
+
+		&__left {
+			&-description {
+				font-size: 1.6rem;
+				margin-bottom: 5rem;
+				color: $clrGray;
+			}
+
+			&-btn {
+				font-size: 1.6rem;
+				background-color: $clrRed;
+				border: none;
+				padding: 1.5rem 2rem;
+				color: white;
+				border-radius: 0.5rem;
+				transition: all 0.5s ease;
+				cursor: pointer;
+
+				&:hover {
+					background-color: $clrGray;
+				}
+			}
+		}
+	}
+}
