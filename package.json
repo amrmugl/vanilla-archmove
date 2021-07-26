@@ -1,0 +1,14 @@
+{
+	"name": "archmove",
+	"version": "0.0.0",
+	"scripts": {
+		"scss": "sass -w style.scss style.css",
+		"dev": "vite",
+		"build": "vite build",
+		"serve": "vite preview"
+	},
+	"devDependencies": {
+		"sass": "^1.36.0",
+		"vite": "^2.4.3"
+	}
+}

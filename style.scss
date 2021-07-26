@@ -1,0 +1,114 @@
+@import './scss/variables/variables';
+
+@font-face {
+	font-family: 'SF UI Display';
+	src: url('./fonts/SFUIDisplay-Bold.woff2') format('woff2');
+	src: url('./fonts/SFUIDisplay-Bold.woff') format('woff');
+	src: url('./fonts/SFUIDisplay-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'SF UI Display';
+	src: url('./fonts/SFUIDisplay-Black.woff2') format('woff2');
+	src: url('./fonts/SFUIDisplay-Black.woff') format('woff');
+	src: url('./fonts/SFUIDisplay-Black.ttf') format('truetype');
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'SF UI Display';
+	src: url('./fonts/SFUIDisplay-Heavy.woff2') format('woff2');
+	src: url('./fonts/SFUIDisplay-Heavy.woff') format('woff');
+	src: url('./fonts/SFUIDisplay-Heavy.ttf') format('truetype');
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'SF UI Display';
+	src: url('./fonts/SFUIDisplay-Light.woff2') format('woff2');
+	src: url('./fonts/SFUIDisplay-Light.woff') format('woff');
+	src: url('./fonts/SFUIDisplay-Light.ttf') format('truetype');
+	font-weight: 200;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'SF UI Display';
+	src: url('./fonts/SFUIDisplay-Medium.woff2') format('woff2');
+	src: url('./fonts/SFUIDisplay-Medium.woff') format('woff');
+	src: url('./fonts/SFUIDisplay-Medium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'SF UI Display';
+	src: url('./fonts/SFUIDisplay-Semibold.woff2') format('woff2');
+	src: url('./fonts/SFUIDisplay-Semibold.woff') format('woff');
+	src: url('./fonts/SFUIDisplay-Semibold.ttf') format('truetype');
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'SF UI Display';
+	src: url('./fonts/SFUIDisplay-Ultralight.woff2') format('woff2');
+	src: url('./fonts/SFUIDisplay-Ultralight.woff') format('woff');
+	src: url('./fonts/SFUIDisplay-Ultralight.ttf') format('truetype');
+	font-weight: 200;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'SF UI Display';
+	src: url('./fonts/SFUIDisplay-Thin.woff2') format('woff2');
+	src: url('./fonts/SFUIDisplay-Thin.woff') format('woff');
+	src: url('./fonts/SFUIDisplay-Thin.ttf') format('truetype');
+	font-weight: 100;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'New York';
+	src: url('./fonts/NewYorkMedium-Bold.woff2') format('woff2');
+	src: url('./fonts/NewYorkMedium-Bold.woff') format('woff');
+	src: url('./fonts/NewYorkMedium-Bold.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'New York';
+	src: url('./fonts/NewYorkMedium-BoldItalic.woff2') format('woff2');
+	src: url('./fonts/NewYorkMedium-BoldItalic.woff') format('woff');
+	src: url('./fonts/NewYorkMedium-BoldItalic.ttf') format('truetype');
+	font-weight: 500;
+	font-style: italic;
+	font-display: swap;
+}
+
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'New York';
+	font-size: 112px;
+}
