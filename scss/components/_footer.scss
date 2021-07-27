@@ -1,0 +1,41 @@
+.footer {
+	margin-top: 5rem;
+	margin-left: 17rem;
+	margin-right: 17rem;
+
+	&__container {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		align-items: center;
+	}
+
+	&__ul {
+		list-style: none;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+	}
+
+	&__li {
+		margin: 0 2rem;
+
+		a {
+			cursor: pointer;
+			text-decoration: none;
+			color: $clrGray;
+			transition: all 0.5s ease;
+			padding: 1rem 1.5rem;
+			border-radius: 0.5rem;
+
+			&:hover {
+				background-color: $clrGray;
+				color: white;
+			}
+		}
+	}
+
+	&__logo {
+		cursor: pointer;
+	}
+}

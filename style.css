@@ -167,6 +167,125 @@
   margin-top: 1.5rem;
 }
 
+.big__section {
+  margin-top: 8rem;
+  padding-top: 8rem;
+  background-image: linear-gradient(to bottom, #f9f9f9, rgba(255, 0, 0, 0));
+}
+
+.teste {
+  margin: 0 17rem;
+}
+.teste__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.teste__thanks {
+  font-size: 1.6rem;
+  margin-top: 4rem;
+}
+.teste__thanks-name {
+  font-weight: 300;
+}
+.teste__heading {
+  font-size: 4.8rem;
+  font-family: "New York";
+  margin-bottom: 5rem;
+}
+.teste__details {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+}
+.teste__details__img {
+  margin-right: 2rem;
+}
+.teste__details__p {
+  font-size: 3.2rem;
+  font-weight: 300;
+}
+
+.action {
+  margin: 15rem 17rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.action__content {
+  margin-right: 20rem;
+}
+.action__heading {
+  font-size: 4.8rem;
+  font-family: "New York";
+}
+.action__heading__btn {
+  background-color: #fd665e;
+  border: none;
+  padding: 1rem 1.5rem;
+  border-radius: 0.5rem;
+  font-size: 1.6rem;
+  color: white;
+  margin-top: 5rem;
+}
+.action__heading__red {
+  color: #fd665e;
+}
+
+.partner {
+  margin: 0 17rem;
+}
+.partner__heading {
+  font-size: 4.8rem;
+  font-family: "New York";
+  margin-bottom: 5rem;
+}
+.partner__img {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer {
+  margin-top: 5rem;
+  margin-left: 17rem;
+  margin-right: 17rem;
+}
+.footer__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer__ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.footer__li {
+  margin: 0 2rem;
+}
+.footer__li a {
+  cursor: pointer;
+  text-decoration: none;
+  color: #585858;
+  transition: all 0.5s ease;
+  padding: 1rem 1.5rem;
+  border-radius: 0.5rem;
+}
+.footer__li a:hover {
+  background-color: #585858;
+  color: white;
+}
+.footer__logo {
+  cursor: pointer;
+}
+
 @font-face {
   font-family: "SF UI Display";
   src: url("./fonts/SFUIDisplay-Bold.woff2") format("woff2");
